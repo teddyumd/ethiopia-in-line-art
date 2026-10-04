@@ -27,4 +27,5 @@ npm run preview   # serve the built site locally
 
 ## Deployment
 
-Hosted on Vercel. Every push to `main` deploys automatically.
+Hosted on GitHub Pages at https://teddyumd.github.io/ethiopia-in-line-art/.
+Every push to `main` builds and deploys automatically through `.github/workflows/deploy.yml`.

@@ -6,14 +6,14 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 const ASSETS = {
-  logo: "/images/logo.webp",
-  bookCover: "/images/book-cover.webp",
-  sample1: "/images/sample-sacred-architecture.webp",
-  sample2: "/images/sample-cultural-rituals.webp",
-  sample3: "/images/sample-wild-wonders.webp",
-  lifestyleCloseup: "/images/coloring-closeup.webp",
-  lifestyleFamily: "/images/family-coloring.webp",
-  texture: "/images/texture.webp"
+  logo: `${import.meta.env.BASE_URL}images/logo.webp`,
+  bookCover: `${import.meta.env.BASE_URL}images/book-cover.webp`,
+  sample1: `${import.meta.env.BASE_URL}images/sample-sacred-architecture.webp`,
+  sample2: `${import.meta.env.BASE_URL}images/sample-cultural-rituals.webp`,
+  sample3: `${import.meta.env.BASE_URL}images/sample-wild-wonders.webp`,
+  lifestyleCloseup: `${import.meta.env.BASE_URL}images/coloring-closeup.webp`,
+  lifestyleFamily: `${import.meta.env.BASE_URL}images/family-coloring.webp`,
+  texture: `${import.meta.env.BASE_URL}images/texture.webp`
 };
 
 const Section = ({ children, className = "", id = "" }: { children: React.ReactNode, className?: string, id?: string }) => (
